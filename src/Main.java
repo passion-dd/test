@@ -5,7 +5,6 @@ public class Main {
         Test test=new Test();
         System.out.println(test);
         Test a=new Test("小明",89);
-//        test.test1();
-
+        test.test1();
     }
 }
