@@ -3,10 +3,10 @@
 
 public class Main {
     public static void main(String[] args) {
-        Test test=new Test();
-        System.out.println(test);
-        Test a=new Test("小明",89);
-        test.test1();
+//        Test test=new Test();
+//        System.out.println(test);
+//        通过类名直接调用Test类中的静态方法
+        Test.test1();
         System.out.println("hello world");
     }
 }

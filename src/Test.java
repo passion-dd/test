@@ -1,12 +1,28 @@
 public class Test {
     int a;
+    private double b;
+
     public static void test1(){
-        for(int i=1;i<=9;i++){
-            for (int j=1;j<=i;j++){
-                System.out.print(i+"*"+j+"="+i*j);
-            }
-            System.out.println();
-        }
+        Test son = new Test();
+        System.out.println(son);
+        son.setB(0.99);
+        System.out.println(son.getB());
+    }
+
+    public int getA() {
+        return a;
+    }
+
+    public void setA(int a) {
+        this.a = a;
+    }
+
+    public double getB() {
+        return b;
+    }
+
+    public void setB(double b) {
+        this.b = b;
     }
     public  Test(){
         System.out.println("无参构造器");
