@@ -3,7 +3,7 @@ package APi;
 import java.util.ArrayList;
 import java.util.Objects;
 
-public class Test {
+public class StringTest {
     public static void main(String[] args) {
         String st1 = "hdtrs";
         String st2 = "hdtrs";
@@ -19,6 +19,7 @@ public class Test {
         s.append("strd").append(1).append("jiksd");
         System.out.println(s);
 
+        
         System.out.println(fun(new int[]{1, 3, 4, 21}));
     }
 
